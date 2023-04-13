@@ -1,0 +1,21 @@
+{
+  "name": "@gabrielcaiana-ui/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "“gabrielcaiana” <gabrielcaianaguedes@gmail.com> (https://gabrielcaiana.com/)",
+  "license": "MIT",
+  "keywords": [
+    "design system",
+    "tokens",
+    "design tokens"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
