@@ -1,22 +1,19 @@
 {
-  "name": "@gabrielcaiana-ui/tokens",
+  "name": "@gabrielcaiana-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "author": "“gabrielcaiana” <gabrielcaianaguedes@gmail.com> (https://gabrielcaiana.com/)",
-  "license": "MIT",
-  "keywords": [
-    "design system",
-    "tokens",
-    "design tokens"
-  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
   },
+  "keywords": [],
+  "author": "“gabrielcaiana” <gabrielcaianaguedes@gmail.com> (https://gabrielcaiana.com/)",
+  "license": "MIT",
   "devDependencies": {
+    "@gabrielcaiana-ui/tokens": "*",
     "@gabrielcaiana-ui/ts-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
