@@ -1,8 +1,8 @@
 ### Componentes
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box
+- [x] Text
+- [x] Heading
+- [x] Box
 - [ ] Button
 - [ ] TextInput
 - [ ] Textarea
