@@ -11,8 +11,8 @@ Design System é uma coleção de componentes reutilizáveis e estilos que foram
 - [x] Heading
 - [x] Box
 - [x] Avatar
-- [ ] Button
-- [ ] TextInput
+- [x] Button
+- [x] TextInput
 - [ ] Textarea
 - [ ] Checkbox
 - [ ] Multistep
