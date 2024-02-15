@@ -17,4 +17,5 @@ export const colors = {
   ignite900: '#00291D',
 
   danger300: '#FF669D',
+  danger500: '#E52E71',
 }
