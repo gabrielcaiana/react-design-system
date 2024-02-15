@@ -19,4 +19,5 @@ export const colors = {
   danger300: '#FF669D',
   danger500: '#E52E71',
   danger700: '#9E123E',
+  danger900: '#670A2C',
 }
