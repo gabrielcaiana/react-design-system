@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "“gabrielcaiana” <gabrielcaianaguedes@gmail.com> (https://gabrielcaiana.com/)",
@@ -19,6 +20,7 @@
     "@storybook/addon-mdx-gfm": "^7.6.15",
     "@storybook/react": "^7.6.15",
     "@storybook/react-vite": "^7.6.15",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.1.0",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-loader": "^8.3.0",
