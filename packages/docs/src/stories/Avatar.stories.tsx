@@ -9,6 +9,14 @@ const meta: Meta<typeof Avatar> = {
     src: 'https://github.com/gabrielcaiana.png',
     alt: 'Gabriel Caiana',
   },
+  argTypes: {
+    src: {
+      control: { type: 'text' },
+    },
+    alt: {
+      control: { type: 'text' },
+    },
+  },
 }
 
 export default meta

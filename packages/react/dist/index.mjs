@@ -3260,6 +3260,7 @@ var Box = styled("div", {
   backgroundColor: "$gray800",
   border: "1px solid $gray600"
 });
+Box.displayName = "Box";
 
 // src/components/Text/index.tsx
 var Text = styled("p", {
@@ -3288,6 +3289,7 @@ var Text = styled("p", {
     size: "md"
   }
 });
+Text.displayName = "Text";
 
 // src/components/Heading/index.tsx
 var Heading = styled("h2", {
@@ -3311,6 +3313,7 @@ var Heading = styled("h2", {
     size: "md"
   }
 });
+Heading.displayName = "Heading";
 
 // src/components/Avatar/style.ts
 import * as Avatar from "@radix-ui/react-avatar";
@@ -3350,6 +3353,7 @@ function Avatar2(props) {
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AvatarFallback, { delayMs: 600, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(User, {}) })
   ] });
 }
+Avatar2.displayName = "Avatar";
 
 // src/components/Button/index.tsx
 var Button = styled("button", {
@@ -3422,6 +3426,7 @@ var Button = styled("button", {
     size: "md"
   }
 });
+Button.displayName = "Button";
 
 // src/components/TextInput/style.ts
 var TextInputContainer = styled("div", {
@@ -3474,6 +3479,7 @@ function TextInput(_a) {
     /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, __spreadValues({}, props))
   ] });
 }
+TextInput.displayName = "TextInput";
 export {
   Avatar2 as Avatar,
   Box,

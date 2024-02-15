@@ -12,6 +12,11 @@ const meta: Meta<typeof Box> = {
       </div>
     ),
   },
+  argTypes: {
+    children: {
+      control: { type: null },
+    },
+  },
 }
 
 export default meta
