@@ -1,8 +1,8 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 
 import { Box, BoxProps, Text } from '@gabrielcaiana-ui/react'
 
-export default {
+const meta: Meta<typeof Box> = {
   title: 'Surface/Box',
   component: Box,
   args: {
@@ -12,6 +12,8 @@ export default {
       </div>
     ),
   },
-} as Meta<BoxProps>
+}
+
+export default meta
 
 export const Primary: StoryObj<BoxProps> = {}

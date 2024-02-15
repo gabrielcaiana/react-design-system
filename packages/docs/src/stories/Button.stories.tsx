@@ -1,15 +1,17 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 
 import { Button, ButtonProps } from '@gabrielcaiana-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
-export default {
-  title: 'Form/Button',
-  component: Button,
+const meta: Meta<typeof Button> = {
   args: {
     children: 'Send',
   },
-} as Meta<ButtonProps>
+  component: Button,
+  title: 'Form/Button',
+}
+
+export default meta
 
 export const Primary: StoryObj<ButtonProps> = {}
 

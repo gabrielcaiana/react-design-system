@@ -1,14 +1,16 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 
 import { Text, TextProps } from '@gabrielcaiana-ui/react'
 
-export default {
+const meta: Meta<typeof Text> = {
   title: 'typography/Text',
   component: Text,
   args: {
     children: 'Text example',
   },
-} as Meta<TextProps>
+}
+
+export default meta
 
 export const Primary: StoryObj<TextProps> = {}
 

@@ -1,14 +1,16 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 
 import { Heading, HeadingProps } from '@gabrielcaiana-ui/react'
 
-export default {
+const meta: Meta<typeof Heading> = {
   title: 'typography/Heading',
   component: Heading,
   args: {
     children: 'Heading example',
   },
-} as Meta<HeadingProps>
+}
+
+export default meta
 
 export const Primary: StoryObj<HeadingProps> = {}
 
